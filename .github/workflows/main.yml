@@ -16,7 +16,7 @@ jobs:
       - uses: convictional/trigger-workflow-and-wait@v1.3.0
         with:
           owner: RAMAKREDDY
-          repo: mobile-test
+          repo: mobile-tests
           github_token: ${{ secrets.PAT_TOKEN }}
           workflow_file_name: mobiletests.yml
           
